@@ -1,0 +1,12 @@
+public class datatypes {
+    public static void main(String[] args) {
+        System.out.println("Bytes:"+Byte.BYTES);
+        System.out.println("Bytes:"+Short.BYTES);
+        System.out.println("Bytes:"+Integer.BYTES);
+        System.out.println("Bytes:"+Long.BYTES);
+        System.out.println("Bytes:"+Float.BYTES);
+        System.out.println("Bytes:"+Double.BYTES);
+        System.out.println("Bytes:"+Character.BYTES);
+        System.out.println("Bytes of Boolean:Not defined JVM dependent.");
+    }
+}
