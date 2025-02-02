@@ -10,3 +10,13 @@ public class datatypes {
         System.out.println("Bytes of Boolean:Not defined JVM dependent.");
     }
 }
+
+// Output ...
+// Bytes:1
+// Bytes:2
+// Bytes:4
+// Bytes:8
+// Bytes:4
+// Bytes:8
+// Bytes:2
+// Bytes of Boolean:Not defined JVM dependent.
