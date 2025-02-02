@@ -1,0 +1,16 @@
+public class typecasting {
+    public static void main(String[] args) {
+        System.out.println("TypeCasting in JAVA programming :\n");
+
+        //Example
+        int num=9;
+        double str = num;
+
+        System.out.println(num);
+        System.out.println(str);
+    }
+}
+
+// Output...
+// 9
+// 9.0
