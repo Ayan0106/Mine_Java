@@ -1,0 +1,35 @@
+import java.util.Scanner;       // Creating Scanner Class.
+public class loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);    // Creating Scanner Object.
+
+        System.out.println("Enter first number:");
+        int first_number=sc.nextInt();
+
+        System.out.println("Enter second number:");
+        int second_number=sc.nextInt();
+
+        System.out.println("Enter third number:");
+        int third_number=sc.nextInt();
+
+        if(first_number > second_number && first_number > third_number){
+            System.out.println("largest is "+first_number);
+        }
+        else if(second_number > first_number && second_number>third_number){
+            System.out.println("largest is "+second_number);
+        }
+        else{
+            System.out.println("largest is "+third_number);
+        }
+    }
+}
+
+
+// Output ...
+// Enter first number:
+// 7
+// Enter second number:
+// 45
+// Enter third number:
+// 14
+// largest is 45
