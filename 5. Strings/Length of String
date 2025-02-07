@@ -1,0 +1,8 @@
+public class string {
+    public static void main(String[] args) {
+        String str="My name is Ayan";
+        System.out.println("Length of the string is :"+str.length());            // The length of a string can be found with the length() method:
+    }
+}
+
+// Length of the string is : 15
