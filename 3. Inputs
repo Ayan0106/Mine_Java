@@ -1,0 +1,21 @@
+import java.util.Scanner;              // Creating Scanner Class.
+public class input{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);      // Creating Scanner Object.
+
+        System.out.println("Enter the first number:");
+        int a=sc.nextInt();
+        System.out.println("Enter the Second number:");
+        int b=sc.nextInt();
+
+        int sum=a+b;
+        System.out.println("The calculated sum is: "+sum);
+    }
+}
+
+// Output ...
+// Enter the first number:
+// 12
+// Enter the Second number:
+// 5
+// The calculated sum is: 17
