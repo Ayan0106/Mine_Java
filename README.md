@@ -5,7 +5,7 @@
 ### **About This Repository**  
 This repository contains **Java programs** covering fundamental and advanced concepts, including:  
 - **Datatypes & Typecasting**
-- **Inputs & If-Else Statements**   
+- **Inputs**   
 - **Loops & Iterations**  
 - **Decision Making (if-else, switch-case, etc.)**  
 - **Arrays**  
