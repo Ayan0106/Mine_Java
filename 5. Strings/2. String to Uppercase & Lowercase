@@ -2,7 +2,7 @@ public class string{
     public static void main(String[] args) {
 
         String str="I am a disciple of God.";
-        System.out.println(str.toUpperCase());                  //The length of a string can be found with the toUpperCase() and toLowerCase() method.
+        System.out.println(str.toUpperCase());                  //The Uppercase and Lowercase can be found with the toUpperCase() and toLowerCase() method.
         System.out.println(str.toLowerCase());
     }
 }
