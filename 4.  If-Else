@@ -16,7 +16,7 @@ public class loops {
             System.out.println("largest is "+first_number);
         }
         else if(second_number > first_number && second_number>third_number){
-            System.out.println("largest is "+second_number);
+            System.out.println(second_number+" is largest");
         }
         else{
             System.out.println("largest is "+third_number);
