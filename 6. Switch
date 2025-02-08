@@ -24,3 +24,11 @@ public class Antara {
         }
     }
 }
+
+// Output ...
+// Enter day:
+// 4
+// Thursday
+
+
+
