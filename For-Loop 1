@@ -1,0 +1,31 @@
+import java.util.*;          // * means the Whole packages.
+public class ForLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the multiplicand number:");
+        int num = sc.nextInt();
+
+        System.out.println("The multiplication table of "+num+" is:");
+
+        for(int i=1;i<=10;i++){
+            int mul=num*i;
+            System.out.println(num+"*"+i+"="+mul);
+        }
+    }
+}
+
+// Outputs ...
+// Enter the multiplicand number:
+// 5
+// The multiplication table of 5 is:
+// 5*1=5
+// 5*2=10
+// 5*3=15
+// 5*4=20
+// 5*5=25
+// 5*6=30
+// 5*7=35
+// 5*8=40
+// 5*9=45
+// 5*10=50
