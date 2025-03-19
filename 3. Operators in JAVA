@@ -1,0 +1,53 @@
+public class operators {
+    public static void main(String[] args) {
+
+        // Arithmetic Operator
+        int num1=12;
+        int num2=4;
+        System.out.println(num1+num2);
+        System.out.println(num1/num2);
+        // Outputs ...
+        // 16
+        // 3
+
+        // Assignment Operators.
+        int a=12;
+        int b=3;
+        System.out.println(a+=b); // a=a+b;
+        System.out.println(a-=b); // a=a-b;
+        System.out.println(a*=b); // a=a*b;
+        // Outputs ...
+        // 15
+        // 12
+        // 36
+
+        // Logical Operator.
+        boolean x = true;
+        boolean y = false;
+        System.out.println(x && y);
+        System.out.println(x || y);
+        System.out.println(!x);
+        // Outputs ...
+        // false
+        // true
+        // false
+
+        // Relational Operator.
+        int u=12;
+        int v=23;
+        System.out.println(u<=v);
+        System.out.println(u==v);
+        // Outputs ...
+        // true
+        // false
+
+        // Bitwise operators.
+        System.out.println(4&5);
+        System.out.println(4|5);
+        System.out.println(4^5);
+        // Outputs ...
+        // 4
+        // 5
+        // 1
+    }
+}
