@@ -23,11 +23,11 @@ public class Main {
 }
 
 // Output.....
-Enter first num:
-12
-Enter second num:
-23
-Sum of 12 and 23 is equal to 35
+// Enter first num:
+// 12
+// Enter second num:
+// 23
+// Sum of 12 and 23 is equal to 35
 
 
 
