@@ -4,7 +4,7 @@ import java.util.*;
 public class Main{
 
     static int add(int a, int b){              // Method definition
-        return a+b;
+        return a+b;                            // Return Variables in the function.
     }
 
     public static void main(String[] args) {
@@ -20,3 +20,10 @@ public class Main{
         System.out.println("Sum of "+a+" and "+b+" is "+result);
     }
 }
+
+// Output.......
+// Enter the first number:
+// 41
+// Enter the second number:
+// 23
+// Sum of 41 and 23 is 64
