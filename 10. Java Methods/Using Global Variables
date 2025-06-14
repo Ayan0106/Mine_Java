@@ -1,0 +1,37 @@
+// Using Global Variables
+
+import java.util.*;
+public class Main {
+    
+    static int sum;                           // Defining Global Variable Statically.
+
+    static void add(int a, int b){            // Function Definition
+        sum=a+b;
+    }
+    public static void main(String[] args) {
+        Scanner i=new Scanner(System.in);
+
+        System.out.println("Enter first num:");
+        int a=i.nextInt();
+        System.out.println("Enter second num:");
+        int b=i.nextInt();
+
+        add(a, b);                             // Function Call
+
+        System.out.println("Sum of "+a+ " and "+b+ " is equal to " +sum);
+    }
+}
+
+// Output.....
+Enter first num:
+12
+Enter second num:
+23
+Sum of 12 and 23 is equal to 35
+
+
+
+
+
+
+
