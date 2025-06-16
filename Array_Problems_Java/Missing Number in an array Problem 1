@@ -4,7 +4,7 @@
 
 
 public class MissingNum {
-    static int subho(int[] arr){
+    static int Missingnum(int[] arr){
 
         int n =arr.length+1;
         int sum=0;
@@ -18,7 +18,7 @@ public class MissingNum {
 
     public static void main(String[] args) {
         int arr[]={1,2,3,5};
-        int result=subho(arr);
+        int result=Missingnum(arr);
         System.out.println(result);
     }
 }
