@@ -1,22 +1,26 @@
-public class datatypes {
+There are Primitive and Non-Primitive datatypes in Java. (Non-Primitives are String, Array, Object, Class etc.)
+Here, some primitive datatypes are
+----- 
+
+public class Primitivedatatypes {
     public static void main(String[] args) {
-        System.out.println("Bytes:"+Byte.BYTES);
-        System.out.println("Bytes:"+Short.BYTES);
-        System.out.println("Bytes:"+Integer.BYTES);
-        System.out.println("Bytes:"+Long.BYTES);
-        System.out.println("Bytes:"+Float.BYTES);
-        System.out.println("Bytes:"+Double.BYTES);
-        System.out.println("Bytes:"+Character.BYTES);
+        System.out.println("Byte:"+Byte.BYTES);
+        System.out.println("Short:"+Short.BYTES);
+        System.out.println("Integer:"+Integer.BYTES);
+        System.out.println("Long:"+Long.BYTES);
+        System.out.println("Float:"+Float.BYTES);
+        System.out.println("Double:"+Double.BYTES);
+        System.out.println("Character:"+Character.BYTES);
         System.out.println("Bytes of Boolean:Not defined JVM dependent.");
     }
 }
 
 // Output ...
-// Bytes:1
-// Bytes:2
-// Bytes:4
-// Bytes:8
-// Bytes:4
-// Bytes:8
-// Bytes:2
+// Byte:1
+// Short:2
+// Integer:4
+// Long:8
+// FLoat:4
+// Double:8
+// Character:2
 // Bytes of Boolean:Not defined JVM dependent.
