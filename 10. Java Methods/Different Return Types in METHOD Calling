@@ -1,0 +1,35 @@
+Here, 👉 Shows how methods can return different data types.
+----------------
+addi() → returns int
+ad() → void method (just prints, doesn’t return)
+ap() → returns boolean
+a() → returns String
+----------------
+👉 Since all methods are static, they’re called directly from main() without creating an object.
+
+public class addition {
+    public static int addi(int a, int b) {
+        return a+b;
+    }
+    static void ad(int a, int b){
+        System.out.print(a+b);
+    }
+    static boolean ap(int a){
+        if(a>0){
+            return true;
+        }
+        return false;
+    }
+    static String a(String p){
+        return "name";
+        
+    }
+    public static void main(String[] args) {
+        int a = 10, b=11;
+        char ch ='a';
+        ad(a,b);
+        System.out.println(addi(a, b));
+        System.out.println(a(null));
+        System.out.println(ap(a));
+    }
+}
