@@ -1,0 +1,28 @@
+class Car_details {                         // User-defined class
+    int steering;
+    int wheel;
+    int gear;
+    String name;
+    public Car_details(){                  // Constructor with the attributes of the class.
+        this.steering = steering;
+        this.wheel = wheel;
+        this.gear = gear;
+        this.name = name;
+    }
+    void travel(){                                       // method in the user class
+        System.out.println("car is going from here to there");
+    }
+    void display(){                                      // method in the user-class
+        System.out.println("steering:"+steering);
+        System.out.println("wheel:"+wheel);
+        System.out.println("gear:"+gear);
+        System.out.println("Name:"+name);
+    }
+}
+public class Car{                                           // Built-in class
+    public static void main(String[] args) {
+        Car_details obj= new Car_details(1,4,1,"Rolls Royce");          // Creating the object to use the methods in the user-defined class.
+        obj.travel();
+        obj.display();
+    }
+}
