@@ -1,0 +1,63 @@
+// The "this" keyword can be used to access and modify the instance and static variables.
+
+class Dog{
+    String name;
+    int age;
+    public Dog(String name, int age){
+        this.name=name;
+        this.age=age;
+    }
+    void show(){
+        System.out.println("Name:"+this.name);
+        System.out.println("Age:"+this.age);
+    }
+}
+public class Ayan{
+    public static void main(String[] args) {
+        int age=21;
+        String name="Puja";
+        Dog obj=new Dog("Antara", 20);
+        obj.show();
+    }
+}
+
+
+
+// The “this” keyword is used to invoke the methods of the current object or class.
+
+class Sky{
+    void cloud(){
+        System.out.print("it might be raining");
+    }
+    void weather(){
+        this.cloud();
+        System.out.println(" Today");
+    }
+}
+public class Ayan {
+    public static void main(String[] args) {
+    Sky obj=new Sky();
+    obj.weather();        
+    }
+}
+
+
+
+// this() only calls constructors within the same class.
+
+class Car {
+    Car() {
+        System.out.println("Basic Car ready");
+    }
+
+    Car(String type) {
+        this(); // 👈 Calls the other constructor (Basic Car)
+        System.out.println(type + " Car ready");
+    }
+}
+
+public class Ayan {
+    public static void main(String[] args) {
+        Car c = new Car("Sports");
+    }
+}
