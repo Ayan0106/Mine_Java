@@ -5,17 +5,17 @@ public class Check_if_Sort {
     // finding largest and smallest value in an array after sorting.
     static int[] largest_and_smallest(int[] arr){
         Arrays.sort(arr);
-        int[]ans= {arr[0],arr[arr.length-1]};
+        int[]ans= {arr[0],arr[arr.length-1]};       // making one temporary array to keep the smallest and largest values.
         return ans;
     }
 
     // checking if an array is sorted or not.
     static boolean checking_if_sorted(int[] arr){
-        boolean ans=true;      // if the array is empty...then it will be sorted.
-        for(int i=1;i<arr.length;i++){  // if i=0 then 0<-1 (-1 is not here).
+        boolean ans=true;                          // if the array is empty...then it will be sorted.
+        for(int i=1;i<arr.length;i++){             // if i=0 then 0<-1 (-1 is not here).
             if(arr[i]<arr[i-1]){
-                ans= false;   // not sorted.
-                break;        // if one is not sorted then no need to check further.
+                ans= false;           // not sorted.
+                break;                // if one is not sorted then no need to check further.
             }
         }
         return ans;
