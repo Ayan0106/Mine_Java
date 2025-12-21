@@ -1,0 +1,13 @@
+import java.util.*;
+// import java.util.Collections;
+
+public class Sajano {
+    public static void main(String[] args) {
+        Integer arr[]= {1,2,3,10, 5,78};
+        // Arrays.sort(arr);               // Ascending Order.
+        Arrays.sort(arr,Collections.reverseOrder());     // For Descending Order. (Note: Integer, not int)
+        System.out.println(Arrays.toString(arr));
+        
+        // System.out.println(Arrays.deepToString(arr2D));  // For printing 2D array. 
+    }    
+}
