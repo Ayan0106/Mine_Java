@@ -2,28 +2,21 @@ import java.util.*;
 public class Prime{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter number:");
         int n=sc.nextInt();
-        boolean flag=true;
         if (n==0|| n==1){
             System.out.println("Not Prime nor Non-prime");
             return;
         }
         else{
-            for(int i=2;i<=n-1;i++){  
+            for(int i=2;i<=Math.sqrt(n);i++){  
             //Math.sqrt(n) for better approach.. cause after Math.sqrt(n) same no of factors in both side
             // 60= 1,2,3,4,5,6 ... Math.sqrt(60)=7 ... 10,12,15,20,30,60
                 if (n%i==0){
-                    flag=false;
-                    break;
+                    System.out.println("Composite number");
+                    return;
                 }
             }
         }
-        if(!flag){
-            System.out.println("Composite number");
-        }
-        else{
-            System.out.println("Prime Number");
-        }
+        System.out.println("Prime Number");
     }
 }
