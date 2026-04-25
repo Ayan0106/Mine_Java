@@ -51,7 +51,7 @@ class Car {
     }
 
     Car(String type) {
-        this(); // 👈 Calls the other constructor (Basic Car)
+        this();            // 👈 Calls the other constructor (Basic Car)
         System.out.println(type + " Car ready");
     }
 }
