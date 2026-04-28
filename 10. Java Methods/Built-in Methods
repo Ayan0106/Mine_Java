@@ -1,0 +1,21 @@
+double power = Math.pow(2, 3);        // 8.0 (Raise to power)
+double root = Math.sqrt(16);         // 4.0 (Square root)
+double root = Math.cbrt(1000);         // 4.0 (Cube root)
+int absolute = Math.abs(-10);        // 10 (Absolute value)
+long rounded = Math.round(10.6);     // 11 (Round)
+double up = Math.ceil(10.1);         // 11.0 (Round up)
+double down = Math.floor(10.9);      // 10.0 (Round down)
+int max = Math.max(5, 10);           // 10 (Find max)
+double rand = Math.random();         // 0.0 to 1.0
+
+
+int num = 10;
+String binary = Integer.toBinaryString(num); // "1010"
+
+String s = "123";
+int n = Integer.parseInt(s);        // 123
+int hex = Integer.parseInt("FF", 16); // 255 (Parse as Hex)
+
+String text = "Hello World";
+String upper = text.toUpperCase();  // "HELLO WORLD"
+String lower = text.toLowerCase();  // "hello world"
