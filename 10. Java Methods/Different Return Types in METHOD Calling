@@ -8,7 +8,7 @@ a() → returns String
 👉 Since all methods are static, they’re called directly from main() without creating an object.
 
 public class addition {
-    public static int addi(int a, int b) {
+    public static int addi(int a, int b) {       // a, b are parameters 
         return a+b;
     }
     static void ad(int a, int b){
@@ -28,7 +28,7 @@ public class addition {
         int a = 10, b=11;
         char ch ='a';
         ad(a,b);
-        System.out.println(addi(a, b));
+        System.out.println(addi(a, b));      // a, b are arguments which are passed with values
         System.out.println(a(null));
         System.out.println(ap(a));
     }
