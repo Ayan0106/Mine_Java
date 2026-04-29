@@ -1,0 +1,18 @@
+// JAVA suports Pass By Value.   Changes inside function affect original? ❌ No (Safer)  ✅ Yes (Risk of accidental Modification)
+void change(int x){
+   x = 50;
+}
+
+int a = 10;
+change(a);
+System.out.println(a); // 10
+
+
+// C, C++ supports Pass By Reference.
+void change(int &x){
+   x = 50;
+}
+
+int a=10;
+change(a);
+cout<<a; // 50
