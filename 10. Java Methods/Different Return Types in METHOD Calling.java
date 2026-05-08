@@ -1,4 +1,4 @@
-Here, 👉 Shows how methods can return different data types.
+/* Here, 👉 Shows how methods can return different data types.
 ----------------
 addi() → returns int
 ad() → void method (just prints, doesn’t return)
@@ -6,7 +6,7 @@ ap() → returns boolean
 a() → returns String
 ----------------
 👉 Since all methods are static, they’re called directly from main() without creating an object.
-
+*/
 public class addition {                           // Remember this lines 👇
     public static int addi(int a, int b) {       // a, b are parameters // In "int" return type method ..there should be return statement.. with both if, else.
         return a+b;
