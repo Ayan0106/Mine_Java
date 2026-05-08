@@ -1,7 +1,7 @@
 // JAVA suports Pass By Value.   Changes inside function affect original? ❌ No (Safer)  ✅ Yes (Risk of accidental Modification)
 void change(int x){
    x = 50;
-   // System.out.println(x);  👈 If not giving this line , it will print anything..
+   // System.out.println(x);  👈 If not giving this line , it will print nothing..
 }
 
 int a = 10;
