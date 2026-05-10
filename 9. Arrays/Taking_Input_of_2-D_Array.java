@@ -18,7 +18,7 @@ class Main{
             for(int j=0;j<b;j++){
                 System.out.print(arr[i][j]+" ");
             }
-             System.out.println();
+             System.out.println();  // for new line ... otherwise "12 15 14 17" 
         }
     }
 }
