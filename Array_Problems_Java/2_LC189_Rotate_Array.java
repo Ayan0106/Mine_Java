@@ -14,11 +14,11 @@ class Solution {
         // handle large input.when (k>n)
         k=k%n;
 
-        reverse(nums, 0, n-1);
+        reverse(nums, 0, n-1);  // First- Rotate the whole array
         
-        reverse(nums, 0, k-1);
+        reverse(nums, 0, k-1);  // Second- Rotate from 0 to k-1
         
-        reverse(nums, k, n-1);
+        reverse(nums, k, n-1);  // Third- Rotate from k to n-1
 
         // Brute-Force Approach
         // -------------------------
