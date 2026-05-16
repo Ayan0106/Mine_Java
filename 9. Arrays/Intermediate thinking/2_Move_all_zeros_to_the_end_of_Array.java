@@ -1,4 +1,4 @@
-// Move all zeros to the end of the array.
+// Move all zeros to the end of the array... (TWO POINTER APPROACH)
 // 12,0,23,0,15
 // 12,23,15,0,0
 import java.util.*;
