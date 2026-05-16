@@ -1,4 +1,4 @@
-// Count how many elements are greater than a given number k.
+// Reversing_an_Array_in-place.
 import java.util.*;
 class Main{
     public static int reverse(int[] arr){
