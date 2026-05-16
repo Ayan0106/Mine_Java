@@ -1,4 +1,4 @@
-// Move all zeros to the end of the array... (TWO POINTER APPROACH)
+// Move all zeros to the end of the array... (TWO POINTER APPROACH) ... THIS IS ABOUT MAINTAINING THE RELATIVE ORDER.
 // 12,0,23,0,15
 // 12,23,15,0,0
 import java.util.*;
