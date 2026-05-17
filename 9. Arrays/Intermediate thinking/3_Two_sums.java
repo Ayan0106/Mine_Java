@@ -1,5 +1,5 @@
 // Find all pairs whose sum is equal to a given number...(Brute force)... Doesn't remove the duplicates..(OPTIMAL APPROACH-HASHSET)
-// Array = [1, 5, 7, -1, 5]
+// Array = [1, 5, 7, -1, 5]          // (Brute force)
 // Target Sum = 6
 // (1, 5)
 // (7, -1)
