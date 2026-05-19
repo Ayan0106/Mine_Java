@@ -1,4 +1,5 @@
 // Missing Number
+// output= Missing number 2
 
 class Main {
     public static int missingnumber(int[] arr){
