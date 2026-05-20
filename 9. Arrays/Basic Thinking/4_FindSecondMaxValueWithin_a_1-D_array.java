@@ -11,9 +11,12 @@ class Main {
                 second_max=max;
                 max=arr[i];
             }
-            else if(arr[i]>second_max && arr[i]!=max){
+            else if(arr[i]>second_max && arr[i]<max){
                 second_max=arr[i];
             }
+        }
+        if(second_max==Integer.MIN_VALUE){        // for same digit input,e.g [10,10,10]... else return garbage value.
+            return -1;
         }
         return second_max;
     }
