@@ -1,5 +1,5 @@
 class Solution {
-    // Optimise approach
+    // // (Brute force) takes O(n^2) time complexity and o(1) space complexity for one temporary variable. 
     public static boolean check(int[] nums) {     
         int n = nums.length;
         if (sorted(nums))
