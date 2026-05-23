@@ -1,3 +1,9 @@
+// When you see:
+// sorted + rotated + O(log n)
+
+// Immediately think:
+// Binary Search on properties
+
 class Solution {
     public int search(int[] nums, int target) {
         int low=0;
