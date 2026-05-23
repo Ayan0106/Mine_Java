@@ -2,7 +2,7 @@
 // sorted + rotated + O(log n)
 
 // Immediately think:
-// Binary Search on properties
+// Binary Search on properties    👇(Below there is more simple process to solve this...)
 
 class Solution {
     public int findMin(int[] nums) {
@@ -27,3 +27,28 @@ class Solution {
         }return min;
     }
 }
+
+// SIMPLER AND CLEANER CODE ---- --------
+// class Solution {
+//     public int findMin(int[] nums) {
+//         int low = 0;
+//         int high = nums.length - 1;
+
+//         while(low < high) {
+
+//             int mid = low + (high - low) / 2;
+
+//             // Minimum is on right side
+//             if(nums[mid] > nums[high]) {
+//                 low = mid + 1;
+//             }
+
+//             // Minimum is on left side including mid
+//             else {
+//                 high = mid;
+//             }
+//         }
+
+//         return nums[low];
+//     }
+// }
