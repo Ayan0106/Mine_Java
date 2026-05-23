@@ -1,3 +1,6 @@
+// For Input : 3 1 1 1 2 2 3 3 3 3 3 3 4 4 4 5 5 5
+// output is: 5
+    
 class Solution {
     public int firstSearch(int[] arr, int k) {
         // Code Here
