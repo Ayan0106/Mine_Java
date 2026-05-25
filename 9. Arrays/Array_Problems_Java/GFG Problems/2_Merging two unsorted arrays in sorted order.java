@@ -1,3 +1,4 @@
+// Same as Intermediate thinking... (Forward Traversing Because we have to store the sorted items in a new array)
 class Solution {
     public void sortedMerge(int[] arr1, int[] arr2, int[] res) {
         // code here
