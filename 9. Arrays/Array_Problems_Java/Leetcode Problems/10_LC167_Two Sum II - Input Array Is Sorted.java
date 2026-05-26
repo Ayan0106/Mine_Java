@@ -1,5 +1,7 @@
 // When the array is Sorted (ASC or DESC), Pair Sum/ subarray ... Then use TWO POINTERS 
 // When Sorted + Searching --- BINARY SEARCH
+
+// TWO SUM I is unsorted array... so two pointers can cause T.C= O(n^2) or Use "HASHMAP"
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int left=0;
