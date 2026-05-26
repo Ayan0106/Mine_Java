@@ -1,3 +1,5 @@
+// When the array is Sorted (ASC or DESC), Pair Sum/ subarray ... Then use TWO POINTERS 
+// When Sorted + Searching --- BINARY SEARCH
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int left=0;
