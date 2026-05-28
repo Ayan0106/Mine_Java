@@ -1,4 +1,4 @@
-// Intersection of two arrays
+// Intersection of two arrays  ... Two Pointers Approach(Takes O(n+m) Time Complexity).
 import java.util.*;
 class Main {
     public static int[] intersection(int[] nums1, int[] nums2) {
