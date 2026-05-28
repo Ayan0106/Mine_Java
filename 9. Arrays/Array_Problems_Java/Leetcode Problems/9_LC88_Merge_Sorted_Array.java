@@ -16,7 +16,7 @@ class Solution {
             }
             k--;
         }
-        while(j>=0){
+        while(j>=0){        // We areputting all the elements in nums1 , so the remaining element of nums2 are always taken.
             nums1[k]=nums2[j];
             j--;
             k--;
