@@ -3,7 +3,7 @@
 // Example 2: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 // Output: [4,9] , Explanation: [9,4] is also accepted.       (Duplicates also can occur)
 
-// (DO IT AGAIN WHEN LEARNING HASHSET)
+// (DO IT AGAIN WHEN LEARNING HASHMAP).
 import java.util.*;
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
