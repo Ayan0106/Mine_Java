@@ -6,8 +6,8 @@ class Solution {
         int left=0;
         int right=n-1;
         int max=0;
+        int area=0;
         while(left<right){
-            int area;
             if(height[left]<height[right]){
                 area=height[left] * (right - left);
                 left++;
