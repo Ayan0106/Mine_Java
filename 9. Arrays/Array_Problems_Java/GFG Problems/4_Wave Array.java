@@ -1,5 +1,6 @@
 // Input: arr[] = [2, 4, 7, 8, 9, 10]
 // Output: [4, 2, 8, 7, 10, 9]
+
 class Solution {
     public void sortInWave(int arr[]) {
         // code here
