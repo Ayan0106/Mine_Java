@@ -1,3 +1,6 @@
+// Input: nums = [9,12,5,10,14,3,10], pivot = 10
+// Output: [9,5,3,10,10,12,14]
+
 class Solution {
     public int[] pivotArray(int[] nums, int pivot) {
         int n=nums.length;
